@@ -1,0 +1,19 @@
+{
+	"name": "Onee-San",
+	"version": "4.9.3",
+	"description": "chill bot",
+	"author": "I See You#1985",
+	"lience": "ISC",
+	"main": "index.js",
+	"dependencies": {
+		"discord-nsfw": "^1.3.0",
+		"discord.js": "^12.5.1",
+		"handler": "^0.1.3",
+		"nana-api": "^1.1.3",
+		"nhentai-js": "^4.0.0",
+		"quick.db": "^7.1.3",
+		"sqlite": "^4.0.21",
+		"superagent": "^4.1.0",
+		"winston": "^3.3.3"
+	}
+}
