@@ -37,12 +37,11 @@ module.exports = {
 				      )
 			 	     .addField("//nsfw2",
 					   "NEXT nsfw command >",
+				      )
 			 
 
-			    	 .setTimestamp()
-			    	 .setFooter("work in progress")
-                                 
-			    		
+					 .setTimestamp()
+					 .setFooter("work in progress")    
 						message.channel.send(embed);
 					}
 				};
