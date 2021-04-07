@@ -10,40 +10,7 @@ module.exports = {
 	 		 const embed = new Discord.MessageEmbed()
 			   		 .setTitle(` nsfw command :`)
 			    	 .setColor("BLACK")	
-			    	 	
-			    	 .addField("//hentai",
-			    	  "drop Hentai image", 		
-			    	  )
-			         .addField("//fourk",
-					   "drop 4k porn image",
-				      )
-			         	.addField("//ass",
-					   "drop Ass image",
-				      )
-			         	.addField("//gonewild",
-					   "drop Gonewild image",
-				      )
-			         	.addField("//pgif",
-					   "drop Porn gif",
-				      )
-			         	.addField("//pussy",
-					   "drop Pussy image",
-				      )
-			         	.addField("//thigh",
-					   "drop Thigh image",
-				      )
-			         	.addField("//boobs",
-					   "drop Boobs image",
-				      )
-			         	.addField("//hentaiass",
-					   "drop Hentai ass image",
-				      )
-			            .addField("//hmidriff",
-					   "drop Hentai Midriff image",
-				      )
-			            .addField("//hentaithigh",
-					   "drop Hentai thigh image",
-				      )
+			   
 			            .addField("//erokemo",
 					   "drop Erokemo image",
 				      )
@@ -68,6 +35,9 @@ module.exports = {
 			            .addField("//wallpaper",
 					   "drop wallpaper  image",
 				      )
+			 	     .addField("//nsfw2",
+					   "NEXT nsfw command >",
+			 
 
 			    	 .setTimestamp()
 			    	 .setFooter("work in progress")
