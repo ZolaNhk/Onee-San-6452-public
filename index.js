@@ -36,12 +36,6 @@ client.on('message', async message => {
 });
 
 
-client.on("message", msg => {
-	if (msg.content.startsWith(prefix + "help")) {
-		msg.channel.send("work in progress... if you want help me contact I See You#1985")
-    }
-});
-
 const UserIdZokow = "822347482272366622"
 client.on("message", msg => {
 	if (msg.author.id === UserIdZokow) 
