@@ -38,9 +38,9 @@ module.exports = {
 				      )
 
 					 .setTimestamp()
-			    	 .setFooter("work in progress")
+			    		 .setFooter("work in progress")
                                  
-			    	 )						
+			    								
 				        message.channel.send(embed);
 					}
 				};
