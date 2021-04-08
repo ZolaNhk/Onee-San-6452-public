@@ -1,6 +1,6 @@
 const db = require("quick.db");
 const discord = require("discord.js");
-const OnwerId = "593763665459675167"
+const OwnerId = "593763665459675167"
 
 module.exports = {
   name: "status",
