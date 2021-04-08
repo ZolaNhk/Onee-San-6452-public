@@ -5,11 +5,14 @@ module.exports = {
  name: "hentaiass",
  description: "drop hentai ass pictures",
  run: async (client, message, args) => {
+    if (message.channel.nsfw) {
 	const image = await nsfw.hentaiass();
 	const embed = new Discord.MessageEmbed()
    		 .setTitle(`Hentai ass Image`)
     		.setColor("GREEN")
     		.setImage(image);
 			message.channel.send(embed);
+    } else {
+	    messsage.channel.send("only in NSFW channel")
   }
 }
