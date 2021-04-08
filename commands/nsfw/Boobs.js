@@ -14,5 +14,6 @@ module.exports = {
 			message.channel.send(embed);
       } else {
 	      message.channel.send("only in NSFW channel");
+      }
   }
 }
