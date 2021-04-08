@@ -5,15 +5,19 @@ module.exports = {
  name: "fourk",
  description: "drop fourk pictures",
  run: async (client, message, args) => {
-	 if (this.nsfw = Boolean(true.nsfw)) {
-            
-		const image = await nsfw.fourk();
+	if (message.channel.nsfw) {
+            const image = await nsfw.fourk();
 		const embed = new Discord.MessageEmbed()
 			 .setTitle(`Fourk Image`)
 			.setColor("GREEN")
 			.setImage(image);
 				message.channel.send(embed);
-	 }
+        } else {
+            message.channel.send("only in NSFW channel");
+        }
+            
+		
+	 
   }
 }
 
