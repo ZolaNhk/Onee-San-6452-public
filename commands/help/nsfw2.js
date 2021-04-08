@@ -38,7 +38,7 @@ module.exports = {
 				      )
 
 					 .setTimestamp()
-			    		 .setFooter("work in progress")
+			    		 .setFooter("discord.gg/PGww3kE4eN")
                                  
 			    								
 				        message.channel.send(embed);
