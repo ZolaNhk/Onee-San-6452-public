@@ -9,9 +9,9 @@ module.exports = {
 	const image = await nsfw.hentaiass();
 	const embed = new Discord.MessageEmbed()
    		 .setTitle(`Hentai ass Image`)
-    		.setColor("GREEN")
-    		.setImage(image);
-			message.channel.send(embed);
+    		 .setColor("GREEN")
+    		 .setImage(image);
+	         message.channel.send(embed);
     } else {
 	    messsage.channel.send("only in NSFW channel");
     }
