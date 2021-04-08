@@ -13,7 +13,7 @@ module.exports = {
     		 .setImage(image);
 	           message.channel.send(embed);
      } else {
-	    messsage.channel.send("only in NSFW channel");
+	    message.channel.send("only in NSFW channel");
     }
   }
 }
