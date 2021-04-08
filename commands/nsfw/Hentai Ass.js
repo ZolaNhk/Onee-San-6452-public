@@ -11,8 +11,8 @@ module.exports = {
    		 .setTitle(`Hentai ass Image`)
     		 .setColor("GREEN")
     		 .setImage(image);
-	         message.channel.send(embed);
-    } else {
+	           message.channel.send(embed);
+     } else {
 	    messsage.channel.send("only in NSFW channel");
     }
   }
