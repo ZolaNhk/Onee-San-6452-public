@@ -10,7 +10,9 @@ run: async (message, client) => {
 
  const embed = new Discord.MessageEmbed()
    .setTitle("all command for image")
-   .setField("//neko" , value: "drop neko SFW image ")
+   .setField("//neko" , 
+     "drop neko SFW image "
+	    )
    .setTimestamp()
    .setFooter("discord.gg/PGww3kE4eN")
      message.channel.send(embed)
