@@ -6,7 +6,7 @@ module.exports = {
 	usage: "image"
 }
 
-run: async (message, client) => {
+run: async (client, message, args) => {
 
  const embed = new Discord.MessageEmbed()
    .setTitle("all command for image")
