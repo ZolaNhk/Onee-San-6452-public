@@ -1,26 +1,24 @@
 const Discord = require("discord.js");
 
 module.exports = {
-        name: "test",
-        usage: "test",
+        name: "image",
+        usage: "image",
 		description: "show all command",
 	      run:  async (client, message, prefix, ) => {
 	 		 const embed = new Discord.MessageEmbed()
 			   		 .setTitle(`all command :`)
 			    	 .setColor("BLACK")
 			    	 
-			    	 .addField("//nsfw",
-			    	  "see nsfw command", 
+			    	 .addField("//neko",
+			    	  "drop neko SFW image", 
 			    	  )
-			    	 .addField("//image",
-			    	  "see command for image",
-			    	  )
+			    	 
 			    	  
 
 			    	  
 
 			    	 .setTimestamp()
-			    	 .setFooter("work in progress")
+			    	 .setFooter("discord.gg/PGww3kE4eN")
 				 
 			    		
 								message.channel.send(embed);
