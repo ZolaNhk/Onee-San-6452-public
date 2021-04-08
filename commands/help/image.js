@@ -1,21 +1,29 @@
 const Discord = require("discord.js");
 
-module.exports.run = {
-	name: "image",
-	description: "see help image command list",
-	usage: "image",
-		run: async (client, message, prefix) => {
+module.exports = {
+        name: "test",
+        usage: "test",
+		description: "show all command",
+	      run:  async (client, message, prefix, ) => {
+	 		 const embed = new Discord.MessageEmbed()
+			   		 .setTitle(`all command :`)
+			    	 .setColor("BLACK")
+			    	 
+			    	 .addField("//nsfw",
+			    	  "see nsfw command", 
+			    	  )
+			    	 .addField("//image",
+			    	  "see command for image",
+			    	  )
+			    	  
 
-		 const embed = new Discord.MessageEmbed()
-		  	   .setColor("BLACK")
-			   .setTitle("all command for image")
-			   .setField("//neko", 
-			     "drop neko SFW image ",
-			   )
-			   .setTimestamp()
-			   .setFooter("discord.gg/PGww3kE4eN")
-			     message.channel.send(embed)
-	  }
-	};
+			    	  
 
+			    	 .setTimestamp()
+			    	 .setFooter("work in progress")
+				 
+			    		
+								message.channel.send(embed);
+					}
+				};
 		
