@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 
-module.exports = {
+module.exports.run = {
 	name: "image",
 	description: "see help image command list",
 	usage: "image",
