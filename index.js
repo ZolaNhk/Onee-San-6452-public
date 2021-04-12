@@ -16,7 +16,7 @@ client.categories = fs.readdirSync('./commands');
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
   console.log(`//help for command !`);
-  client.user.setActivity("//help");
+  client.user.setActivity("ANCIEN COMPTE TOKEN GRABB nouveau : I See You#6164");
 });
 
  
