@@ -18,7 +18,7 @@ module.exports = {
 			    	  
 
 			    	 .setTimestamp()
-			    	 .setFooter("discord.gg/PGww3kE4eN")
+			    	 .setFooter("I See You#0001")
 				 
 			    		
 								message.channel.send(embed);
