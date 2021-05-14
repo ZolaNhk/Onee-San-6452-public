@@ -19,8 +19,7 @@ client.on('ready', () => {
   client.user.setActivity("ANCIEN COMPTE TOKEN GRABB nouveau : I See You#6164");
 });
 
- 
-//en bas jsp ce que ca fait mdrr
+
 client.on('message', async message => {
     if (message.author.bot) return;
     if (!message.content.startsWith(prefix)) return;
@@ -36,29 +35,7 @@ client.on('message', async message => {
 });
 
 
-const UserIdZokow = "822347482272366622"
-client.on("message", msg => {
-	if (msg.author.id === UserIdZokow) 
-	if (msg.content === "fdp") {
-		msg.channel.send("t moche")
-	} else {
-	     if (msg.content === "tg")
-	        msg.channel.send("t moche")
-    }
-	
-});
 
 
-client.on("message", msg => {
-	if (msg.author.id === UserIdZokow) 
-	if (msg.content === "tg fdp") {
-		msg.channel.send("t moche")
-	} else {
-	     if (msg.content === "ntm")
-	        msg.channel.send("t moche")
-    }
-	
-});
-
-// le client ira chercher le token dans config.json
+// don't change here
 client.login(token)
