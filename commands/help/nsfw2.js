@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 
 
 const { prefix, token } = require('/app/config.json');
-//hi, if you use host the bot on your pc change "/app/ on the file name ex : /Onee-San-6452/config.json   , i put "/app/ because i use my bot on heroku and the files is /app/
+//hi, if you host the bot on your pc change this : "/app/"  in , ex : /Onee-San-6452-public/config.json  , i put "/app/ because i host my bot on heroku and on heroku the main file name is /app/
 module.exports = {
         name: "nsfw2",
         usage: "nsfw2",
