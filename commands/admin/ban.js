@@ -4,7 +4,7 @@ module.exports = {
        name: "ban",
        usage: "ban user.mention",
           run: async (client, message, prefix) => {
-            if (message.content.startsWith(prefix +"ban")) {
+           
 		 const embedTrue = new Discord.MessageEmbed()
 			   		 .setDescription("This User has been banned")
 	     const embedFalse = new Discord.MessageEmbed()
@@ -25,7 +25,7 @@ module.exports = {
 		 }  else {
 					message.channel.send(embedFalse)
 		}
-	}
+	
              
    }
 };
