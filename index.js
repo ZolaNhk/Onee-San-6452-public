@@ -16,7 +16,7 @@ client.categories = fs.readdirSync('./commands');
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
   console.log(prefix+"help for command !");
-  client.user.setActivity("Chill Bot | By I See You#0001");
+  client.user.setActivity("Chill Bot | By I See You#7043");
 });
 
  
@@ -33,20 +33,6 @@ client.on('message', async message => {
     if (!command) command = client.commands.get(client.aliases.get(cmd));
     if (command) command.run(client, message, args)
  
-});
-
-
-const UserIdOwner = "698949245985882212"
-client.on("message", msg => {
-	if (msg.author.id === UserIdOwner) {
-	 if (msg.content === "huhughue") {
-		msg.channel.send("true")
-	} else {
-	     if (msg.content === ("gjihjiajh"))
-	        msg.channel.send("false")
-	}
-    }
-	
 });
 	
 
