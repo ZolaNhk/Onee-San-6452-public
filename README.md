@@ -2,4 +2,4 @@
 
 little discord bot, 
 work in progress...
-discord : I See You#0001
+discord : I See You#7043
