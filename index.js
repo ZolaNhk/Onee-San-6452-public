@@ -1,7 +1,7 @@
+const Discord = require("discord.js");
 const {
     Collection,
     Client,
-    Discord,
     handler
 } = require('discord.js');
 const fs = require('fs');
@@ -9,7 +9,7 @@ const client = new Client;
 const { prefix, token } = require('./config.json');
 client.commands = new Collection();
 client.aliases = new Collection();
-client.categories = fs.readdirSync('./commands');
+
 ['command'].forEach(handler => {
 	 require(`./handler/${handler}`)(client);
 });
