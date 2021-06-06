@@ -16,9 +16,10 @@ module.exports = {
          .addField(prefix+"kick @user", 
           "kick mentioned user",
          )
-         
+         .addField(prefix+"nuke", 
+          "clone and delete the message channel",
+         )
          .setTimestamp()
-         .setFooter("by I See You#0001")
          
             message.channel.send(embed);
             
