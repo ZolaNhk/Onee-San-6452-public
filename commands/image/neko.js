@@ -12,7 +12,6 @@ module.exports = {
                 .setColor("BLACK")
                 .setImage(url)
                 .setTimestamp()
-                .setFooter("I See You#0001")
 		            message.channel.send(embed); 
 
                 });
