@@ -15,6 +15,8 @@
 		"sqlite": "^4.0.21",
 		"superagent": "^4.1.0",
 		"winston": "^3.3.3",
-		"neko-love": "^2.0.2"
+		"neko-love": "^2.0.2",
+		"neko-love": "^2.0.2",
+		"discord.js-reaction-menu": "^1.1"
 	}
 }
